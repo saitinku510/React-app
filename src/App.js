@@ -14,7 +14,9 @@ function App() {
         <button>Action</button>
       </Greet>
       <Greet name="Bhargav" job="UI Developer" />
-      <Welcome /> 
+      <Welcome name="Venkat" job="Developer" /> 
+      <Welcome name="Bhargav" job="UI Developer" /> 
+      <Welcome name="Sadik" job="React Developer" /> 
       <Hello />
     </div>
   );
