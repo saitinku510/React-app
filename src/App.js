@@ -6,6 +6,7 @@ import Hello from './Components/hello';
 import Message from './Components/message'
 import FunctionClick from './Components/functionClick'
 import ClassClick from './Components/classClick'
+import EventBind from './Components/eventBind'
 // import Counter from './Components/counter'
 
 function App() {
@@ -25,7 +26,8 @@ function App() {
       {/* <Message /> */}
       {/* <Counter /> */}
       {/* <FunctionClick /> */}
-      <ClassClick />
+      {/* <ClassClick /> */}
+      <EventBind />
     </div>
   );
 }
