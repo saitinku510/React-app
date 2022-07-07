@@ -7,6 +7,7 @@ constructor(props) {
   this.state = {
      message : 'Hello'
   }
+  this.clickhandler = this.clickhandler.bind(this)
 }
 clickhandler(){
     this.setState({
@@ -19,7 +20,7 @@ clickhandler(){
       <div>
           <div>{this.state.message}</div>
         {/* <button onClick={this.clickhandler.bind(this)}>Click</button> */}
-        <button onClick={() => this.clickhandler()}>Click</button>
+        <button onClick={this.clickhandler}>Click</button>
       </div>
     )
   }
