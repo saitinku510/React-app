@@ -11,22 +11,33 @@ class Counter extends Component {
 
   increment() {
     // this.state.count = this.state.count + 1
-    this.setState(
-      {
-        count: this.state.count + 1,
-      },
-      () => {
-        console.log("callback Value", this.state.count);
-      }
-    );
+    // this.setState(
+    //   {
+    //     count: this.state.count + 1,
+    //   },
+    //   () => {
+    //     console.log("callback Value", this.state.count);
+    //   }
+    // );
+    this.setState((prevState, props) => ({
+        count : prevState.count + 1
+    }))
     console.log(this.state.count);
+  }
+
+  incrementFive(){
+    this.increment()
+    this.increment()
+    this.increment()
+    this.increment()
+    this.increment()
   }
 
   render() {
     return (
       <div>
         Count - {this.state.count}
-        <button onClick={() => this.increment()}>Increment</button>
+        <button onClick={() => this.incrementFive()}>Increment</button>
       </div>
     );
   }
