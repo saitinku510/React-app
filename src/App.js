@@ -17,9 +17,9 @@ function App() {
       </Greet>
       <Welcome name="Venkat" job="Developer" /> 
       <Welcome name="Bhargav" job="UI Developer" /> 
-      <Welcome name="Sadik" job="React Developer" /> 
       <Hello /> */}
-      <Greet name="Bhargav" job="UI Developer" />
+      {/* <Greet name="Bhargav" job="UI Developer" /> */}
+      <Welcome name="Sadik" job="React Developer" /> 
       {/* <Message /> */}
       {/* <Counter /> */}
     </div>
