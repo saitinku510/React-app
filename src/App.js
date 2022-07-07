@@ -4,7 +4,7 @@ import Greet from './Components/greet';
 import Welcome from './Components/welcome';
 import Hello from './Components/hello';
 import Message from './Components/message'
-import Counter from './Components/counter'
+// import Counter from './Components/counter'
 
 function App() {
   return (
@@ -15,13 +15,13 @@ function App() {
       <Greet name="Sadik" job="React Developer">
         <button>Action</button>
       </Greet>
-      <Greet name="Bhargav" job="UI Developer" />
       <Welcome name="Venkat" job="Developer" /> 
       <Welcome name="Bhargav" job="UI Developer" /> 
       <Welcome name="Sadik" job="React Developer" /> 
       <Hello /> */}
+      <Greet name="Bhargav" job="UI Developer" />
       {/* <Message /> */}
-      <Counter />
+      {/* <Counter /> */}
     </div>
   );
 }
