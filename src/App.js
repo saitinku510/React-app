@@ -5,6 +5,7 @@ import Welcome from './Components/welcome';
 import Hello from './Components/hello';
 import Message from './Components/message'
 import FunctionClick from './Components/functionClick'
+import ClassClick from './Components/classClick'
 // import Counter from './Components/counter'
 
 function App() {
@@ -23,7 +24,8 @@ function App() {
       {/* <Welcome name="Sadik" job="React Developer" />  */}
       {/* <Message /> */}
       {/* <Counter /> */}
-      <FunctionClick />
+      {/* <FunctionClick /> */}
+      <ClassClick />
     </div>
   );
 }
