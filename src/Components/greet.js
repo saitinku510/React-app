@@ -6,13 +6,14 @@ import React from "react";
 
 // const Greet = () => <h1>Hello Me</h1>;
 
-const Greet = ({name, job}) => {
+const Greet = props => {
+  const {name, job} = props
   return (
     <div>
       <h1>
         Hello {name} is working as a {job}
       </h1>
-      {/* {props.children} */}
+      {props.children}
     </div>
   );
 };
