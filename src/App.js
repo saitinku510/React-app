@@ -7,8 +7,12 @@ import Hello from './Components/hello';
 function App() {
   return (
     <div className="App">
-      <Greet name="Venkat" job="Developer"/>
-      <Greet name="Sadik" job="React Developer" />
+      <Greet name="Venkat" job="Developer">
+        <h3>This is a child property (props)</h3>
+      </Greet>
+      <Greet name="Sadik" job="React Developer">
+        <button>Action</button>
+      </Greet>
       <Greet name="Bhargav" job="UI Developer" />
       <Welcome /> 
       <Hello />
