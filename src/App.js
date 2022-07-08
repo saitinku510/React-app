@@ -12,11 +12,15 @@ import UserGreeting from './Components/userGreeting'
 import NameList from './Components/nameList'
 import Stylesheet from './Components/Stylesheet'
 import Inline from './Components/inline'
+import './appStyles.css'
+import style from "./appStyles.module.css";
 // import Counter from './Components/counter'
 
 function App() {
   return (
     <div className="App">
+      <h1 className={'red'}>Mine</h1>
+      <h1 className={style.green}>Mining</h1>
       {/* <Greet name="Venkat" job="Developer">
         <h3>This is a child property (props)</h3>
       </Greet>
