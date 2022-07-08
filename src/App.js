@@ -15,6 +15,7 @@ import Inline from './Components/inline'
 import Form from './Components/form'
 import './appStyles.css'
 import style from "./appStyles.module.css";
+import LifeCycleA from './Components/lifeCycleA'
 // import Counter from './Components/counter'
 
 function App() {
@@ -43,7 +44,8 @@ function App() {
       {/* <NameList /> */}
       {/* <Stylesheet primary={true}/> */}
       {/* <Inline /> */}
-      <Form />
+      {/* <Form /> */}
+      <LifeCycleA />
     </div>
   );
 }
