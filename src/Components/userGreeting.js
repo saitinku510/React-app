@@ -5,17 +5,19 @@ class UserGreeting extends Component {
     super(props);
 
     this.state = {
-      isLoggedIn: true,
+      isLoggedIn: false,
     };
   }
 
   render() {
+    return this.state.isLoggedIn && <div>Welcome Venkat</div>;
+    // return this.state.isLoggedIn ? (
+    //   <div>Welcome Venkat</div>
+    // ) : (
+    //   <div>Welcome to the User</div>
+    // );
 
-    return(
-        this.state.isLoggedIn ? <div>Welcome Venkat</div> : <div>Welcome to the User</div>
-    )
-
-    // let message 
+    // let message
     // if(this.state.isLoggedIn){
     //     message = <div>Welcome Venkat</div>
     // }else{
@@ -36,7 +38,6 @@ class UserGreeting extends Component {
     //     <div>Welcome to the Guest User</div>
     //   </div>
     // )
-    
   }
 }
 
