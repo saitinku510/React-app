@@ -17,6 +17,9 @@ class UserGreeting extends Component {
     }else{
         message = <div>Welcome to the user</div>
     }
+    return(
+        <div>{message}</div>
+    )
 
     // if (this.state.isLoggedIn) {
     //   return <div>Welcome Venkat</div>;
@@ -29,9 +32,7 @@ class UserGreeting extends Component {
     //     <div>Welcome to the Guest User</div>
     //   </div>
     // )
-    return(
-        <div>{message}</div>
-    )
+    
   }
 }
 
