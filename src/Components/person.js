@@ -1,10 +1,10 @@
 import React from 'react'
 
-function Person({person}) {
+function Person({personArg}) {
   return (
     <div>
       <h2>
-      I am {person.name} & {person.age} years old
+      I am {personArg.name} & {personArg.age} years old
     </h2>
     </div>
   )
