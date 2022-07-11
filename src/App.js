@@ -21,6 +21,7 @@ import Table from './Components/table'
 import PureComp from './Components/pureComponent'
 import RegularComp from './Components/RegularComp'
 import ParentComp from './Components/ParentComp'
+import Ref from './Components/Ref';
 
 function App() {
   
@@ -55,7 +56,8 @@ function App() {
       {/* <Table /> */}
       {/* <PureComp /> */}
       {/* <RegularComp /> */}
-      <ParentComp />
+      {/* <ParentComp /> */}
+      <Ref />
     </div>
   );
 }
