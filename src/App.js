@@ -24,6 +24,7 @@ import ParentComp from './Components/ParentComp'
 import Ref from './Components/Ref';
 import Input from './Components/input';
 import FocusInput from './FocusInput';
+import ForwardRefParentInput from './Components/ForwardRefParentInput';
 
 function App() {
   
@@ -60,7 +61,8 @@ function App() {
       {/* <RegularComp /> */}
       {/* <ParentComp /> */}
       {/* <Ref /> */}
-      <FocusInput />
+      {/* <FocusInput /> */}
+      <ForwardRefParentInput />
     </div>
   );
 }
