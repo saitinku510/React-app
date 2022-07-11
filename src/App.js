@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import './appStyles.css'
 import Greet from './Components/greet';
 import Welcome from './Components/welcome';
 import Hello from './Components/hello';
@@ -13,12 +14,13 @@ import NameList from './Components/nameList'
 import Stylesheet from './Components/Stylesheet'
 import Inline from './Components/inline'
 import Form from './Components/form'
-import './appStyles.css'
 import style from "./appStyles.module.css";
 import LifeCycleA from './Components/lifeCycleA'
 import Fragments from './Components/Fragments'
 import Table from './Components/table'
-// import Counter from './Components/counter'
+import PureComp from './Components/pureComponent'
+import RegularComp from './Components/RegularComp'
+import ParentComp from './Components/ParentComp'
 
 function App() {
   
@@ -50,7 +52,10 @@ function App() {
       {/* <Form /> */}
       {/* <LifeCycleA /> */}
       {/* <Fragments /> */}
-      <Table />
+      {/* <Table /> */}
+      {/* <PureComp /> */}
+      {/* <RegularComp /> */}
+      <ParentComp />
     </div>
   );
 }
