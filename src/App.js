@@ -16,6 +16,8 @@ import Form from './Components/form'
 import './appStyles.css'
 import style from "./appStyles.module.css";
 import LifeCycleA from './Components/lifeCycleA'
+import Fragments from './Components/Fragments'
+import Table from './Components/table'
 // import Counter from './Components/counter'
 
 function App() {
@@ -46,7 +48,9 @@ function App() {
       {/* <Stylesheet primary={true}/> */}
       {/* <Inline /> */}
       {/* <Form /> */}
-      <LifeCycleA />
+      {/* <LifeCycleA /> */}
+      {/* <Fragments /> */}
+      <Table />
     </div>
   );
 }
