@@ -19,6 +19,7 @@ import LifeCycleA from './Components/lifeCycleA'
 // import Counter from './Components/counter'
 
 function App() {
+  
   return (
     <div className="App">
       {/* <h1 className={'red'}>Mine</h1>
@@ -49,5 +50,7 @@ function App() {
     </div>
   );
 }
+
+
 
 export default App;
