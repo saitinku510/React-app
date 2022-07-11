@@ -22,6 +22,8 @@ import PureComp from './Components/pureComponent'
 import RegularComp from './Components/RegularComp'
 import ParentComp from './Components/ParentComp'
 import Ref from './Components/Ref';
+import Input from './Components/input';
+import FocusInput from './FocusInput';
 
 function App() {
   
@@ -57,7 +59,8 @@ function App() {
       {/* <PureComp /> */}
       {/* <RegularComp /> */}
       {/* <ParentComp /> */}
-      <Ref />
+      {/* <Ref /> */}
+      <FocusInput />
     </div>
   );
 }
