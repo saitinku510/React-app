@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 // function ForwardRefInputs() {
 //   return (
@@ -7,13 +7,12 @@ import React from 'react'
 //     </div>
 //   )
 // }
-
 const ForwardRefInputs = React.forwardRef((props, ref) => {
-    return(
-        <div>
-             <input type="text" ref={ref}/>
-        </div>
-    )
-}) 
+  return (
+    <div>
+      <input type="text" ref={ref} />
+    </div>
+  );
+});
 
-export default ForwardRefInputs
+export default ForwardRefInputs;

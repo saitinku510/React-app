@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import ForwardRefInputs from "./ForwardRefInputs";
 
+
 class ForwardRefParentInput extends Component {
   constructor(props) {
     super(props);

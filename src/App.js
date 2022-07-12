@@ -1,33 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
-import './appStyles.css'
-import Greet from './Components/greet';
-import Welcome from './Components/welcome';
-import Hello from './Components/hello';
-import Message from './Components/message'
-import FunctionClick from './Components/functionClick'
-import ClassClick from './Components/classClick'
-import EventBind from './Components/eventBind'
-import ParentComponent from './Components/parentComponent'
-import UserGreeting from './Components/userGreeting'
-import NameList from './Components/nameList'
-import Stylesheet from './Components/Stylesheet'
-import Inline from './Components/inline'
-import Form from './Components/form'
+import logo from "./logo.svg";
+import "./App.css";
+import "./appStyles.css";
+import Greet from "./Components/greet";
+import Welcome from "./Components/welcome";
+import Hello from "./Components/hello";
+import Message from "./Components/message";
+import FunctionClick from "./Components/functionClick";
+import ClassClick from "./Components/classClick";
+import EventBind from "./Components/eventBind";
+import ParentComponent from "./Components/parentComponent";
+import UserGreeting from "./Components/userGreeting";
+import NameList from "./Components/nameList";
+import Stylesheet from "./Components/Stylesheet";
+import Inline from "./Components/inline";
+import Form from "./Components/form";
 import style from "./appStyles.module.css";
-import LifeCycleA from './Components/lifeCycleA'
-import Fragments from './Components/Fragments'
-import Table from './Components/table'
-import PureComp from './Components/pureComponent'
-import RegularComp from './Components/RegularComp'
-import ParentComp from './Components/ParentComp'
-import Ref from './Components/Ref';
-import Input from './Components/input';
-import FocusInput from './Components/FocusInput';
-import ForwardRefParentInput from './Components/ForwardRefParentInput';
+import LifeCycleA from "./Components/lifeCycleA";
+import Fragments from "./Components/Fragments";
+import Table from "./Components/table";
+import PureComp from "./Components/pureComponent";
+import RegularComp from "./Components/RegularComp";
+import ParentComp from "./Components/ParentComp";
+import Ref from "./Components/Ref";
+import Input from "./Components/input";
+import FocusInput from "./Components/FocusInput";
+import ForwardRefParentInput from "./Components/ForwardRefParentInput";
 
 function App() {
-  
   return (
     <div className="App">
       {/* <h1 className={'red'}>Mine</h1>
@@ -66,7 +65,5 @@ function App() {
     </div>
   );
 }
-
-
 
 export default App;
