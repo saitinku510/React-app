@@ -8,13 +8,13 @@ class ForwardRefParentInput extends Component {
   }
 
   clickHandler = () => {
-      this.inputRef.current.focus()
-  }
+    this.inputRef.current.focus();
+  };
 
   render() {
     return (
       <div>
-        <ForwardRefInputs ref={this.inputRef}/>
+        <ForwardRefInputs ref={this.inputRef} />
         <button onClick={this.clickHandler}>Focus</button>
       </div>
     );

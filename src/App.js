@@ -23,7 +23,7 @@ import RegularComp from './Components/RegularComp'
 import ParentComp from './Components/ParentComp'
 import Ref from './Components/Ref';
 import Input from './Components/input';
-import FocusInput from './FocusInput';
+import FocusInput from './Components/FocusInput';
 import ForwardRefParentInput from './Components/ForwardRefParentInput';
 
 function App() {
